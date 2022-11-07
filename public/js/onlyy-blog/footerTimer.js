@@ -1,3 +1,11 @@
+/*
+ * @Author: loveyy520 201357337@qq.com
+ * @Date: 2022-11-07 18:24:48
+ * @LastEditors: loveyy520 201357337@qq.com
+ * @LastEditTime: 2022-11-07 18:44:36
+ * @FilePath: \onlyy-assets\public\js\onlyy-blog\footerTimer.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 var now = new Date();
 function createtime() {
   now.setTime(now.getTime() + 1e3);
@@ -19,8 +27,8 @@ function createtime() {
   let g = "";
   (g =
     i < 18 && i >= 9
-      ? `<span class='textTip'> <br> <b>小站已经运行了 ${o} 天</span><span id='runtime'> ${i} 小时 ${b} 分 ${c} 秒 </b></span> <i id="heartbeat" class='fas fa-heartbeat' style='color:red'></i> <br> <b>旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</b> <br> <b><font size=2px>世界上繁花无数✨</font></b> `
-      : `<span class='textTip'> <br> <b>小站已经运行了 ${o} 天</span><span id='runtime'> ${i} 小时 ${b} 分 ${c} 秒 </b></span> <i id="heartbeat" class='fas fa-heartbeat' style='color:red'></i> <br> <b>旅行者 1 号当前距离地球 ${t} 千米，约为 ${a} 个天文单位 🚀</b> <br> <b><font size=2px>世界上繁花无数✨</font></b> `),
+      ? `<span class='textTip'> <br> <b>小站已经运行了 ${o} 天</span><span id='runtime'> ${i} 小时 ${b} 分 ${c} 秒 </b></span> <i id="heartbeat" class='fas fa-heartbeat' style='color:red'></i> <br><b><font size=2px>世界上繁花无数✨唯有你是我的玫瑰.</font></b> `
+      : `<span class='textTip'> <br> <b>小站已经运行了 ${o} 天</span><span id='runtime'> ${i} 小时 ${b} 分 ${c} 秒 </b></span> <i id="heartbeat" class='fas fa-heartbeat' style='color:red'></i> <br><b><font size=2px>世界上繁花无数✨唯有你是我的玫瑰.</font></b> `),
     document.getElementById("workboard") &&
       (document.getElementById("workboard").innerHTML = g);
 }
