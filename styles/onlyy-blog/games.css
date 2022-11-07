@@ -1,0 +1,13 @@
+
+/* 贪吃蛇 */
+#game-container-snake {
+  background: #c5f6f13d;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: #182026 3px 3px 6px;
+}
+
+#game-container-snake > iframe {
+  width: 100%;
+  transform: translateY(-8%);
+}
