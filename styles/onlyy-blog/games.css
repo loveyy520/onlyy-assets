@@ -1,6 +1,7 @@
 
 /* 贪吃蛇 */
 #game-container-snake {
+  height: 600px;
   background: #c5f6f13d;
     border-radius: 20px;
     box-sizing: border-box;
