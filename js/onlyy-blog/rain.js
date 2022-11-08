@@ -12,8 +12,7 @@ const rain = () =>
 // 注册下雨的页面
 const rainingPages = ["/", "/relax/music/", "/zone/love-story/"];
 
-window.addEventListener("DOMContentLoaded", rain);
-
+window.addEventListener("load", rain);
 class Rain {
   constructor(opts) {
     if (Rain.__instance) return Rain.__instance;
