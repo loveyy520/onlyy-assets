@@ -5,15 +5,14 @@ const doc = document,
 const maxRainCount = 20,
   maxRecycledCount = 20;
 
-// 注册下雨的页面
-const rainingPages = ["/onlyy-blog/", "/onlyy-blog/relax/music/"];
+// 定义下雨的函数
+const rain = () =>
+  rainingPages.includes(location.pathname) && (window.rain = new Rain());
 
-window.addEventListener("DOMContentLoaded", () => {
-  console.log("要下雨了", location.pathname);
-  if (rainingPages.includes(location.pathname)) {
-    window.rain = new Rain();
-  }
-});
+// 注册下雨的页面
+const rainingPages = ["/", "/relax/music/", "/zone/love-story/"];
+
+window.addEventListener("DOMContentLoaded", rain);
 
 class Rain {
   constructor(opts) {
