@@ -2,6 +2,35 @@
 :root{
   --primary-color:#3c83ff; /*我的主题色*/
   --background-color: var(--primary-color);
+  --sitename-text-shadow-color: #000;
+}
+
+/* 网站名字霓虹光晕 */
+#site-title, #site-name {
+  --sitename-text-shadow: var(--sitename-text-shadow-color) 0 0 5px;
+  animation: colorful-text-glow 5s infinite;
+  text-shadow: var(--sitename-text-shadow)!important;
+}
+/* 光晕动画：改变css变量颜色 */
+@keyframes colorful-text-glow {
+  0% {
+    --sitename-text-shadow-color: #fff;
+  }
+  20% {
+    --sitename-text-shadow-color: #ae00ff;
+  }
+  40% {
+    --sitename-text-shadow-color: #ff8900
+  }
+  60% {
+    --sitename-text-shadow-color: #ff00cf
+  }
+  80%{
+    --sitename-text-shadow-color: #59e2ff
+  }
+  100% {
+    --sitename-text-shadow-color:#fff;
+  }
 }
 
 /* 页脚与头图透明 */
