@@ -360,6 +360,9 @@ translate:-50%;
 .tk-submit-action-icon{
   display: none!important;
 }
+.OwO {
+  display: inline-block!important;
+}
 /* 表情 颜色 */
 .tk-row-actions-start{
   color: #08649c!important;
@@ -371,12 +374,19 @@ translate:-50%;
 /* 评论区 */
 .tk-comment {
   padding: 10px!important;
-  background: url(https://assets.onlyy.vip/photos/dont-starve/bg_winters_feast.png) center/cover no-repeat!important;
+  /* background: url(https://assets.onlyy.vip/photos/dont-starve/bg_winters_feast.png) center/cover no-repeat!important; */
 }
 /* 评论栏 */
 .tk-row{
   background-image: linear-gradient(45deg, #f1f0ff, #e2ffe647)!important;
   border-radius: 5px!important;
+}
+.tk-comment .tk-row{
+  padding-left:10px;
+  padding-right: 10px;
+}
+.tk-submit .actions {
+  background-image: none;
 }
 
 div[clss="el-input el-input--small el-input-group el-input-group--prepend"] {
