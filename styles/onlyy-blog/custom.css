@@ -354,3 +354,69 @@ translate:-50%;
   position: relative;
   font-size: 24px; /*一定要把字体调大点，否则效果惨不忍睹！*/
 }
+
+/* twikoo评论插件样式修改 */
+/* 隐藏twikoo评论插件的图片，因为图片上传失败 */
+.tk-submit-action-icon{
+  display: none!important;
+}
+/* 表情 颜色 */
+.tk-row-actions-start{
+  color: #08649c!important;
+}
+/* 评论head颜色 */
+.comment-head{
+  color: #779dff !important;
+}
+/* 评论区 */
+.tk-comment {
+  padding: 10px!important;
+  background: url(https://assets.onlyy.vip/photos/dont-starve/bg_winters_feast.png) center/cover no-repeat!important;
+}
+/* 评论栏 */
+.tk-row{
+  background-image: linear-gradient(45deg, #f1f0ff, #e2ffe647)!important;
+  border-radius: 5px!important;
+}
+
+div[clss="el-input el-input--small el-input-group el-input-group--prepend"] {
+  box-shadow: #182026b0 2px 2px 2px!important;
+  border-radius: 5px!important;
+}
+
+.el-input-group__prepend{
+  background-image: linear-gradient(45deg, #8e6df5, #45ebc3a8)!important;
+  color: #fff!important;
+}
+
+.el-input__inner{
+  background-image: linear-gradient(160deg, #45ebc3a8, #8e6df5)!important;
+  color: #fff!important;
+}
+/* 昵称 */
+.tk-nick {
+  color: #3e616b!important;
+  /* text-shadow: #000 0 0 1px; */
+  padding: 0 5px!important;
+  border-radius: 5px!important;
+  box-shadow: #2e568a 0 0 2px!important;
+  background-image: linear-gradient(45deg, #bec0f3, #57e0e999)!important;
+}
+
+/* 评论气泡 */
+.tk-content {
+  padding: 15px!important;
+    border-radius: 5px!important;
+    box-shadow: #2e568a 0 0 2px!important;
+    background-image: linear-gradient(45deg, #bec0f3, #57e0e999)!important;
+    color: #106ba3!important;
+    box-shadow: #565656 0px 1px 1px!important;
+}
+/* 附加信息 */
+.tk-extras {
+  color: darkblue!important;
+}
+
+.tk-footer a::after {
+  content: '& Onlyy🦄'!important;
+}
