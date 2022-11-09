@@ -1,0 +1,38 @@
+Arguments: 
+  D:\Node.js\node.exe C:\Users\Chris\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add gulp -D
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\PyCharm Community Edition 2020.3.3\Projection\Python\Scripts\;D:\PyCharm Community Edition 2020.3.3\Projection\Python\;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\MySQL\mysql-8.0.23-winx64\bin;C:\Program Files\Git\cmd;D:\Xshell\;D:\Xftp\;D:\微信web开发者工具\dll;D:\Node.js\;D:\Python\Scripts\;D:\Python\;C:\Users\Chris\AppData\Local\Microsoft\WindowsApps;D:\PyCharm Community Edition 2020.3.3\bin;;D:\Java\jdk\bin;D:\MySQL\mysql-8.0.23-winx64\bin;D:\VS code\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\JetBrains\DataGrip 2021.2.1\bin;;C:\Users\Chris\AppData\Local\Android\Sdk\platform-tools;C:\Users\Chris\AppData\Local\Android\Sdk\emulator;C:\Users\Chris\AppData\Local\Android\Sdk\tools;C:\Users\Chris\AppData\Local\Android\Sdk\tools\bin;;%DevEco Studio%;C:\Users\Chris\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.16.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)
+
+npm manifest: 
+  {
+    "name": "onlyy-assets",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
