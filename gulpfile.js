@@ -2,7 +2,7 @@
  * @Author: loveyy520 201357337@qq.com
  * @Date: 2022-11-09 21:21:33
  * @LastEditors: loveyy520 201357337@qq.com
- * @LastEditTime: 2022-11-09 22:33:11
+ * @LastEditTime: 2022-11-09 23:02:51
  * @FilePath: \onlyy-assets\build\generate.js
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -31,16 +31,18 @@ gulp.task("minifycss", function () {
 //压缩，合并 js
 
 gulp.task("minifyjs", function () {
-  return gulp
-    .src("files-raw/js/*.js") //需要操作的文件
+  return (
+    gulp
+      .src("files-raw/js/*.js") //需要操作的文件
 
-    .pipe(concat("custom.js")) //合并所有js到main.js
+      // .pipe(concat("custom.js")) //合并所有js到main.js
 
-    .pipe(gulp.dest("dist/js")) //输出到文件夹
+      .pipe(gulp.dest("dist/js")) //输出到文件夹
 
-    .pipe(uglify()) //压缩
+      .pipe(uglify()) //压缩
 
-    .pipe(gulp.dest("dist/js")); //输出
+      .pipe(gulp.dest("dist/js"))
+  ); //输出
 });
 
 gulp.task("default", gulp.parallel("minifycss", "minifyjs"));
