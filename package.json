@@ -5,7 +5,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "build": "npx gulp default"
+    "pack": "npx gulp default"
   },
   "keywords": [],
   "author": "",
